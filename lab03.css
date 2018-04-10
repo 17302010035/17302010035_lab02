@@ -1,0 +1,43 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr, acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong, sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption, tbody,tfoot,thead,tr,th,td{border:0;outline:0;vertical-align:baseline; background:transparent;margin:0;padding:0;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:none;}
+:focus{outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+body{margin: 0 5vw 0 5vw;background-color:#E8EAF6;min-width: 600px}
+p#main-title{font-family:sans-serif,serif;font-size: 1.5em; font-weight: bold}
+p#subtitle{font-style: italic;font-size: 1em;font-family: Times New Roman,serif}
+div#title{background-color: #1A237E; color: #FFFFFF;padding: 1em 1em 1em 0;text-indent: 1em}
+nav{background-color: #3F51B5; padding: 0.3em 0 0.3em 1em; }
+a#DescriptionNav:hover{background-color: #F50057; color:white;padding: 0.3em 0.3em 0.3em 0.3em }
+a#RelatedPhotosNav:hover{background-color: #F50057; color:white;padding: 0.3em 0.3em 0.3em 0.3em }
+a#ReviewsNav:hover{background-color: #F50057; color:white;padding: 0.3em 0.3em 0.3em 0.3em }
+a#DescriptionNav{padding: 0.3em 0.6em 0.3em 0;color: #00B0FF}
+a#RelatedPhotosNav{padding: 0.3em 0.6em 0.3em 0;color: #00B0FF}
+a#ReviewsNav{padding: 0.3em 0 0.3em 0;color: #00B0FF}
+p.title{font-family:sans-serif,serif;font-weight: bold;background-color: #7986CB; color: white; padding: 1em 0 1em 1em}
+img#park{width: 100%; height:auto; padding-bottom: 0;display: block}
+p#note1{font-style: italic;font-family: Times New Roman,serif; color: #7990A3; background-color: #C5CAE9; padding: 0.5em 0 0.5em 1em}
+p#note2{padding-bottom: 1em;font-family: Times New Roman,serif; }
+a{color: #00B0FF; font-weight: bold;}
+div#Options{text-align: right; padding-bottom: 0.5em;}
+figure{margin: 0 0 0 0;}
+img.related{vertical-align: middle}
+div#WordsAndOptions{padding: 0.5em 1em 0.5em 1em; }
+p.AuthorAndDate{font-style: italic;font-family: Times New Roman,serif; color: #C5CAE9;padding: 0.5em 0 0.5em 1em}
+span.date{color: #F5A2C1}
+p.review{font-family: Times New Roman,serif;padding: 0 0 0.5em 1em}
+div.hr{padding-left: 1em;padding-right: 1em}
+p#browse{color: #00B0FF;padding-bottom: 0.6em}
+p#copyright{font-style: italic; color: white}
+span.line{color: white}
+section#TitleSection{margin: 0 0 0.5em 0}
+section#Description{margin: 0 0.5em 0.5em 0.5em; border:1px solid #C5CAE9;}
+section#RelatedPhotos{border:1px solid #C5CAE9;margin: 0 0.5em 0.5em 0.5em}
+section#Reviews{border:1px solid #C5CAE9; margin: 0 0.5em 0 0.5em;padding-bottom: 1em}
+footer{padding: 1.3em 0 1.3em 1em;background-color: #1A237E; margin-top: 0.5em}
+div#article{background-color: white;padding-bottom: 0.5em;padding-top:0.5em; }
