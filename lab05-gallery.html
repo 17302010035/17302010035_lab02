@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <title>Lab05</title>
+</head>
+<body>
+<div class="container">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <h1><strong>Share Your Travels</strong></h1>
+            <h4 class="font-italic">Let us know where you've been</h4>
+        </div>
+        <div class="col-md-6">
+            <nav class="navbar navbar-light navbar-expand-md row justify-content-center">
+                <ul id="myTab" class="navbar-nav " >
+                    <li class="nav-item col-md-4" >
+                        <a class="nav-link" href="lab05-upload.html">Upload</a>
+                    </li>
+                    <li class="nav-item col-md-6" >
+                        <a class="nav-link" href="#">RelatedPhotos</a>
+                    </li>
+                    <li class="nav-item col-md-2">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="container ">
+    <div class="row ">
+        <div class="col-md-8 table-bordered" >
+            <h3><strong>New York - Central Park</strong></h3>
+            <h4>Conservatory Pond in Central Park</h4>
+            <figure>
+                <img src="images/large-central-park.jpg" width="100%" height="100%" />
+                <fieldset style="padding-top: 0.5em; padding-bottom: 0.5em">This photo of Conservatory Pond in <a href="">Central park</a> in <a href="">New York City</a>
+                    was taken on October 22, 2016 with a Canon Eos 30D camera
+                </fieldset>
+            </figure>
+            <div class="text-right">
+                <button type="button" class="btn btn-light btn-sm"><img src="images/icon_download.png"/></button>
+                <button class="btn btn-light btn-sm" style="border: none"><img src="images/icon_mail.png"/></button>
+                <button class="btn btn-light btn-sm" style="border: none"><img src="images/icon_map.png"/></button>
+                <button class="btn btn-light btn-sm" style="border: none"><img src="images/icon_up.png"/></button>
+                <button class="btn btn-light btn-sm" style="border: none"><img src="images/icon_down.png"/></button>
+            </div>
+        </div>
+        <div class="col-md-4" >
+            <div id="Related Photos " class="table-bordered" >
+                <h3><strong>Related Photos</strong></h3>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- 指示符 -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- 轮播图片 -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <a class="img-fliud" href="images/related-large1.jpg"><img src="images/related-square1.jpg" width="100%" height="100%"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a class="img-fliud" href="images/related-large2.jpg"><img src="images/related-square2.jpg" width="100%" height="100%"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a class="img-fliud" href="images/related-large3.jpg"><img src="images/related-square3.jpg" width="100%" height="100%"></a>
+                        </div>
+                    </div>
+
+                    <!-- 左右切换按钮 -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+            <div id="Reviews " class="table-bordered">
+                <h3><strong>Reviews</strong></h3>
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-2 col-2 font-italic"><button type="button" class="btn bg-white btn-outline-light text-dark" data-toggle="collapse" data-target="#review1">Ricardo</button></div>
+                        <div class="col-md-12 col-sm-4 col-4 font-italic"><span class="badge-pill badge-info" data-toggle="collapse" data-target="#review1">2016-05-23</span></div>
+                        <div class="col-md-12 col-sm-6 col-6"><span id="review1" class="collapse">Essay on the HDR buddy</span></div>
+                    </div>
+                    <hr class="w-100">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-2 col-2 font-italic"><button type="button" class="btn bg-white btn-outline-light text-dark" data-toggle="collapse" data-target="#review2">Susan</button></div>
+                        <div class="col-md-12 col-sm-4 col-4 font-italic"><span class="badge-pill badge-info" data-toggle="collapse" data-target="#review2">2016-11-18</span></div>
+                        <div class="col-md-12 col-sm-6 col-6"><span id="review2" class="collapse"> I love Central Park</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center text-center">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <ul class="navbar-nav ">
+                <li class="nav-item col-md-4" >
+                    <a class="nav-link" href="#" data-toggle="tab">Home</a>
+                </li>
+                <li class="nav-item col-md-4" >
+                    <a class="nav-link" href="#">Browse</a>
+                </li>
+                <li class="nav-item col-md-4">
+                    <a class="nav-link" href="#">Search</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="text-center font-italic">
+    Copyright © 2017 Share Your Travels
+</div>
+</body>
+</html>
