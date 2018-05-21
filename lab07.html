@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab07</title>
+    <link href="reset.css" type="text/css" rel="stylesheet">
+    <link href="lab07.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div >
+        <form>
+            <label>
+                <select id="first" onchange="choose(this)">
+                    <option>SELECT ONE</option>
+                    <option>CREATE TABLE</option>
+                    <option>ADD ROW</option>
+                    <option>DELETE ROW</option>
+                    <option>DELETE TABLE</option>
+                </select>
+            </label><br>
+            <div id="create">
+                <div id="details">
+                    <input placeholder="Table Name" id="tableName" name="tableName" type="text" onblur="remove()" />
+                    <input placeholder="Columns Numbers" type="number" id="columnNumber" name="columnNumber" min="0" />
+                </div><br>
+                <div id="input">
+                </div>
+            </div>
+        </form>
+        <button id="commit" type="submit">commit</button>
+        <form>
+            <label>
+                <select id="second" onchange="createTable(this.selectedIndex)">
+                    <option class="changeTable">SELECT (default: last created)</option>
+                </select>
+            </label>
+        </form>
+        <table>
+        </table>
+    </div>
+</body>
+<script src="lab07.js" type="text/javascript"></script>
+</html>
