@@ -1,7 +1,5 @@
 <?php include 'functions.inc.php'; ?>
 
-<?php include 'header.inc.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,13 +18,13 @@
 
 <body>
     <!-- include header here -->
-
+    <?php include 'header.inc.php'; ?>
     <!-- Page Content -->
     <main class="container">
         <div class="row">
-            <?php include 'left.inc.php'; ?>
-        <!-- include left here -->          
 
+        <!-- include left here -->
+            <?php include 'left.inc.php'; ?>
             <div class="col-md-10">
                 <div class="jumbotron" id="postJumbo">
                     <h1>Posts</h1>
@@ -39,7 +37,7 @@
 
                     <!-- replace each of these rows with a function call -->
                     <?php             
-                    outputPostRow(1); 
+                    outputPostRow(1);
                     outputPostRow(2);
                     outputPostRow(3);
                     ?>
